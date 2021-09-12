@@ -3,9 +3,11 @@ remove le shell
 Title in bold
 
 Original PyTorch implementation of Temporal Stochastic Softmax, with inflated VGG for emotion recognition in AFEW video dataset.
-
-![Alt text](Happy_012904560_print.png?raw=true "Title")
-
+ 
+<p float="left">
+  <img src="Happy_012904560_print.png" width="100" />
+  <img src="Happy_012904560_print.png" width="100" /> 
+</p>
 
 Read our WACV paper for more information: 
 https://openaccess.thecvf.com/content/WACV2021/html/Ayral_Temporal_Stochastic_Softmax_for_3D_CNNs_An_Application_in_Facial_WACV_2021_paper.html
