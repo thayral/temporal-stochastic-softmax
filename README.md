@@ -2,8 +2,8 @@
 Original PyTorch implementation of Temporal Stochastic Softmax, with inflated VGG for emotion recognition in AFEW video dataset.
  
 <p float="left">
-  <img src="Happy_012904560_print.png" width="400" />
-  <img src="Angry_012136400_print.png" width="400" /> 
+  <img src="art/Happy_012904560_print.png" width="400" />
+  <img src="art/Angry_012136400_print.png" width="400" /> 
 </p>
 
 Read [our WACV paper](https://openaccess.thecvf.com/content/WACV2021/html/Ayral_Temporal_Stochastic_Softmax_for_3D_CNNs_An_Application_in_Facial_WACV_2021_paper.html) for more information (<i>Temporal Stochastic Softmax for 3D CNNs: An Application in Facial Expression Recognition, Théo Ayral, Marco Pedersoli, Simon Bacon and Eric Granger, 2021</i>).
