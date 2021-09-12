@@ -6,19 +6,13 @@ Original PyTorch implementation of Temporal Stochastic Softmax, with inflated VG
   <img src="Angry_012136400_print.png" width="400" /> 
 </p>
 
-Read our WACV paper for more information: 
-<br/>
-Temporal Stochastic Softmax for 3D CNNs: An Application in Facial Expression Recognition, Théo Ayral, Marco Pedersoli, Simon Bacon and Eric Granger, 2021.
-<br/>
-https://openaccess.thecvf.com/content/WACV2021/html/Ayral_Temporal_Stochastic_Softmax_for_3D_CNNs_An_Application_in_Facial_WACV_2021_paper.html
+Read [our WACV paper](https://openaccess.thecvf.com/content/WACV2021/html/Ayral_Temporal_Stochastic_Softmax_for_3D_CNNs_An_Application_in_Facial_WACV_2021_paper.html) for more information (<i>Temporal Stochastic Softmax for 3D CNNs: An Application in Facial Expression Recognition, Théo Ayral, Marco Pedersoli, Simon Bacon and Eric Granger, 2021</i>).
 
 
 
-This code is intended to help integrating stochastic softmax in other models.
-The dataset object maintains a list of explorated clips (`afew.py`)
-The training loop updates the temporal score distribution of each video example (`trainer.py`). These distributions are used by the data-sampler (`afew.py`) to select clips efficiently.
-
-Multiprocessing and files are used to handle communication between the dataloader and the training loop (synchronize training steps, sampling strategy etc.).
+This code is intended to help integrating stochastic softmax with other models.
+The dataset object maintains a list of explorated clips (`afew.py`).
+The training loop updates the temporal score distribution of each video example (`trainer.py`). These distributions are used by the datasampler (`afew.py`) to select clips efficiently. Multiprocessing and files are used to handle communication between the dataloader and the training loop (synchronize training steps, sampling strategy, temporal distributions, etc.).
 
 
 
@@ -32,7 +26,7 @@ https://github.com/prabhuiitdhn/Emotion-detection-VGGnet-architecture-fer2013
 
 
 #### Videotransforms
-Videotransforms are PyTorch tensor transforms provided by https://github.com/hassony2/torch_videovision for consistent data augment in videos.
+Videotransforms are PyTorch tensor transforms provided by [Yana Hasson](https://github.com/hassony2/torch_videovision) for consistent data augment in videos.
 
 
 
